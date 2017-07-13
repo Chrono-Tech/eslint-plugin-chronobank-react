@@ -1,0 +1,21 @@
+{
+  "name": "eslint-plugin-chronobank-react",
+  "version": "1.1.0",
+  "description": "eslint plugin for ChronoBank related projects with special rules for react",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChronoBank/eslint-plugin-chronobank-react.git"
+  },
+  "author": "Igor Pavlenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChronoBank/eslint-plugin-chronobank-react/issues"
+  },
+  "homepage": "https://github.com/ChronoBank/eslint-plugin-chronobank-react#readme",
+  "dependencies": {
+    "eslint-plugin-chronobank": "chronobank/eslint-plugin-chronobank",
+    "eslint-plugin-react": "7.0.1"
+  },
+  "devDependencies": {}
+}
