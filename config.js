@@ -1,5 +1,5 @@
 module.exports = {
-  'extends': ['eslint:recommended', 'plugin:chronobank/recommended'],
+  'extends': ['eslint:recommended', 'plugin:chronobank/recommended', 'plugin:react/recommended'],
   plugins: [
       'react',
       'chronobank'
