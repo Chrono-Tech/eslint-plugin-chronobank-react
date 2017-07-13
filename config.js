@@ -11,7 +11,7 @@ module.exports = {
       jsx: true
     },
     sourceType: 'module'
-  }
+  },
   rules: {
     'jsx-quotes': [2, 'prefer-single']
   }
