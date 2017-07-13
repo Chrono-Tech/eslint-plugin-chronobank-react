@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/ChronoBank/eslint-plugin-chronobank-react#readme",
   "dependencies": {
-    "eslint-plugin-chronobank": "chronobank/eslint-plugin-chronobank",
+    "eslint-plugin-chronobank": "chronobank/eslint-plugin-chronobank#develop",
     "eslint-plugin-react": "7.0.1"
   },
   "devDependencies": {}
