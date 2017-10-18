@@ -7,7 +7,20 @@ module.exports = {
   ],
   settings: {
     'import/extensions': ['.js'],
-    'import/ignore': ['node_modules', '.json$', '.scss$']
+    'import/ignore': [
+      'node_modules',
+      '.json$',
+      '.scss$'
+    ],
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx'],
+        moduleDirectory: [
+          'node_modules',
+          'src',
+        ]
+      }
+    }
   },
   globals: {
   },
@@ -23,7 +36,7 @@ module.exports = {
       [
         'error',
         {
-          allowAfterThis: false,
+          allowAfterThis: true,
           allow: ['__', '__data', '__html']
         }
       ],
