@@ -1,13 +1,5 @@
 module.exports = {
-  extends: ['eslint-config-airbnb'],
-  env: {
-    browser: true,
-    node: true,
-    es6: true,
-    jest: true,
-    jasmine: true,
-    commonjs: true
-  },
+  extends: ['eslint-config-airbnb', 'plugin:chronobank/recommended'],
   parser: 'babel-eslint',
   plugins: [
     'react',
