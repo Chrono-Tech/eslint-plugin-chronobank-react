@@ -28,7 +28,6 @@ module.exports = {
         ]
       }
     }
-
   },
   globals: {
   },
@@ -108,6 +107,7 @@ module.exports = {
           ]
         }
       ],
+    'space-before-function-paren': ['error', 'always'],
     'no-console': 'error',
     'no-confusing-arrow': 'off',
     'no-alert': 'off',
