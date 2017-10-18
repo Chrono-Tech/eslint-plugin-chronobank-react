@@ -16,11 +16,24 @@ module.exports = {
       'node_modules',
       'src',
     ],
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx'],
+        paths: [
+          'src',
+        ],
+        moduleDirectory: [
+          'node_modules',
+          'src',
+        ]
+      }
+    }
+
   },
   globals: {
   },
   rules: {
-    complexity: ['error', 5],
+    complexity: ['error', 10],
     semi: ['error', 'never'],
     'no-unused-vars': 'error',
     'no-case-declarations': 0,
