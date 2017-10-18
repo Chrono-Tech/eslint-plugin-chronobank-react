@@ -6,21 +6,16 @@ module.exports = {
     'import',
   ],
   settings: {
-    'import/extensions': ['.js'],
+    'import/extensions': ['.js', '.jsx'],
     'import/ignore': [
       'node_modules',
       '.json$',
       '.scss$'
     ],
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx'],
-        moduleDirectory: [
-          'node_modules',
-          'src',
-        ]
-      }
-    }
+    'import/external-module-folders': [
+      'node_modules',
+      'src',
+    ],
   },
   globals: {
   },
