@@ -38,7 +38,9 @@ module.exports = {
     'no-case-declarations': 0,
     'no-param-reassign': ['error', { props: false }],
     'comma-dangle': ['error', 'always-multiline'],
-    'arrow-parens': ['error', 'as-needed', { requireForBlockBody: false }],
+    'object-curly-spacing': ['error', 'always'],
+    'no-multiple-empty-lines': ['error', { 'max': 1, 'maxBOF': 0, 'maxEOF': 1 } ],
+    'arrow-parens': ['error', 'always', { requireForBlockBody: false }],
     'no-underscore-dangle':
       [
         'error',
