@@ -34,6 +34,7 @@ module.exports = {
   rules: {
     complexity: ['error', 10],
     semi: ['error', 'never'],
+    'global-require': 'error',
     'no-unused-vars': 'error',
     'no-case-declarations': 0,
     'no-param-reassign': ['error', { props: false }],
