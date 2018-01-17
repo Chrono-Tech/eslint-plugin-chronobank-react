@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-chronobank-react",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "eslint plugin for ChronoBank related projects with special rules for react",
   "main": "index.js",
   "repository": {

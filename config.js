@@ -34,11 +34,14 @@ module.exports = {
   rules: {
     complexity: ['error', 10],
     semi: ['error', 'never'],
+    'global-require': 'error',
     'no-unused-vars': 'error',
     'no-case-declarations': 0,
     'no-param-reassign': ['error', { props: false }],
     'comma-dangle': ['error', 'always-multiline'],
-    'arrow-parens': ['error', 'as-needed', { requireForBlockBody: false }],
+    'object-curly-spacing': ['error', 'always'],
+    'no-multiple-empty-lines': ['error', { 'max': 1, 'maxBOF': 0, 'maxEOF': 1 } ],
+    'arrow-parens': ['error', 'always', { requireForBlockBody: false }],
     'no-underscore-dangle':
       [
         'error',
@@ -112,5 +115,6 @@ module.exports = {
     'no-confusing-arrow': 'off',
     'no-alert': 'off',
     'no-debugger': 'off',
+    'no-return-await': 'error',
   }
 }
