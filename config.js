@@ -115,5 +115,6 @@ module.exports = {
     'no-confusing-arrow': 'off',
     'no-alert': 'off',
     'no-debugger': 'off',
+    'no-return-await': 'error',
   }
 }
